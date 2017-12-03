@@ -1,0 +1,7 @@
+*.o
+*.dmp
+kmd_serial_rx.s
+kmd_serial_tx.s
+kmd_serial_rx
+kmd_serial_tx
+

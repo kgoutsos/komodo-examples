@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="bus_control">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-7-9T12:12:18</timestamp>
+    <pin polarity="Output" x="592" y="-368" name="SRAM_NWR" />
+    <pin polarity="Input" x="16" y="-352" name="CLOCK" />
+    <pin polarity="Output" x="16" y="-288" name="SW_bus(7:0)" />
+    <pin polarity="Output" x="592" y="-320" name="SRAM_ADDR(17:0)" />
+    <pin polarity="Output" x="592" y="-256" name="SRAM_DATA_OUT(15:0)" />
+    <pin polarity="Input" x="592" y="-192" name="SRAM_DATA_IN(15:0)" />
+    <pin polarity="Input" x="592" y="-144" name="SRAM_NRDY" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="292" y="-392" type="symbol" />
+        <line x2="592" y1="-368" y2="-368" x1="528" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="88" y="-352" type="pin CLOCK" />
+        <line x2="16" y1="-352" y2="-352" x1="80" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="232" y="-288" type="pin SW_bus(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="516" y="-368" type="pin SRAM_NWR" />
+        <rect width="64" x="16" y="-300" height="24" />
+        <line x2="80" y1="-288" y2="-288" x1="16" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="520" y="-320" type="pin SRAM_ADDR(17:0)" />
+        <rect width="64" x="528" y="-332" height="24" />
+        <line x2="592" y1="-320" y2="-320" x1="528" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="520" y="-256" type="pin SRAM_DATA_OUT(15:0)" />
+        <rect width="64" x="528" y="-268" height="24" />
+        <line x2="592" y1="-256" y2="-256" x1="528" />
+        <rect width="64" x="528" y="-204" height="24" />
+        <line x2="528" y1="-192" y2="-192" x1="592" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="268" y="-192" type="pin SRAM_DATA_IN(15:0)" />
+        <line x2="528" y1="-144" y2="-144" x1="592" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="368" y="-148" type="pin SRAM_NRDY" />
+        <rect width="448" x="80" y="-388" height="268" />
+    </graph>
+</symbol>
